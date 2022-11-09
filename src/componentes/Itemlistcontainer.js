@@ -1,18 +1,25 @@
 import React, { useState, useEffect } from "react";
-import {getProducts} from "./products";
+import { getProducts } from "./products";
 import Itemlist from "./Itemlist";
-const Itemlistcontainer = () => {
-  const [datos, setDatos] = useState ([])
-  useEffect (() => {
-    getProducts ().then(data => setDatos (data));
-  }, [])
-  return (
-  <div>
+import { Col, Row } from "react-bootstrap";
 
-<h3>Nuestros Productos</h3>
-<Itemlist products={datos}/>
-  </div>
+const ItemListContainer = () => {
+  const [datos, setDatos] = useState([])
+
+  useEffect(() => {
+    getProducts().then(data => setDatos(data));
+  }, [])
+
+  return (
+    <div>
+      <h3>Nuestros Autos</h3>
+      <Row style={{gridgap: "5px"}}>
+        {datos.map(product => <Col key={product.id}>
+          <Itemlist product={product} />
+        </Col>)}
+      </Row>
+    </div>
   );
 }
 
-  export default Itemlistcontainer;
+export default ItemListContainer;

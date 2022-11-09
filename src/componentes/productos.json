@@ -1,6 +1,6 @@
 [
-    {"id":1, "modelo": "Audi A4", "km": 203000, "Precio": "$2000000"},
-    {"id":2, "modelo": "BMW Z3", "km": 20000, "Precio": "$14000000"},
-    {"id":3, "modelo": "Gol trend", "km": 150000, "Precio": "$2000000"},
-    {"id":4, "modelo": "Toyota Corolla", "km": 213000, "Precio": "$2500000"}
+    {"id":1, "modelo": "Audi A4", "km": 203000, "Precio": "$2000000", "imagen":"https://images.squarespace-cdn.com/content/v1/5de682923e9c044c1addbbad/1577424231974-61D8GWPDYXF50MFMSZLM/A4.jpg"},
+    {"id":2, "modelo": "BMW Z3", "km": 20000, "Precio": "$14000000", "imagen":"https://www.autofacil.es/wp-content/uploads/2021/05/bmwz32.8roadster60ok.jpeg"},
+    {"id":3, "modelo": "Gol trend", "km": 150000, "Precio":"$1800000","imagen":"https://autotest.com.ar/wp-content/uploads/2022/01/VOLKSWAGEN-GOL-CONSUMO.jpg"},
+    {"id":4, "modelo": "Toyota Corolla", "km": 213000, "Precio": "$2500000", "imagen":"https://cdn.motor1.com/images/mgl/qnP2R/s3/oficial-todo-sobre-el-nuevo-toyota-corolla-hybrid-llega-este-verano-a-la-argentina.jpg"}
 ]

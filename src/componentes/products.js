@@ -1,7 +1,9 @@
 import products from "./productos.json"
-export const getProducts =() => {
+
+export const getProducts = () => {
   const autos = new Promise((resolve, reject) => {
     resolve (products)
   })
-    return autos
+  
+  return autos
 }

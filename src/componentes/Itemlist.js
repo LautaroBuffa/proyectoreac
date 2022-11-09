@@ -1,10 +1,19 @@
 import React from "react";
-function Itemlist ({products}) {
+import { Button, Card } from "react-bootstrap";
+
+const Itemlist = ({ product }) => {
   return (
-  <div>
-{products.map(poduct => <p>{products.id}</p>)}
-  </div>
+    <Card style={{ width: '18rem', background:"dimgrey" }} >
+      <Card.Img variant="top" src={product.imagen} />
+      <Card.Body>
+        <Card.Title>{product.modelo}</Card.Title>
+        <Card.Text>
+          {product.Precio}
+        </Card.Text>
+        <Button variant="primary">Agregar al Carrito</Button>
+      </Card.Body>
+    </Card>
   );
 }
 
-  export default Itemlist;
+export default Itemlist;
