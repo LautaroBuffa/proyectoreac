@@ -12,9 +12,14 @@ const ItemListContainer = () => {
 
   return (
     <div>
-      <h3>Nuestros Autos</h3>
-      <Row style={{gridgap: "5px"}}>
-        {datos.map(product => <Col key={product.id}>
+      <h3 style={{
+        backgroundColor:"grey",
+        display:"flex",
+        justifyContent:"center"
+        }}>Nuestros Autos</h3>
+      <Row>
+        {datos.map(product => <Col style={{margin: "10px",
+      marginTop:"5%"}} key={product.id}>
           <Itemlist product={product} />
         </Col>)}
       </Row>
