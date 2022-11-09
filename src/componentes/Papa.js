@@ -1,4 +1,4 @@
-import Hijo from "./Hijo";
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -11,7 +11,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
       <Container style={{
         backgroundColor:"greenyellow",
         marginLeft:"5%",
-       marginBottom:"15%",
+        marginBottom:"15%",
     }}>
         <Navbar.Brand href="#home" style={{color:"red"}}>Vehiculos</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -36,6 +36,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
     </Navbar>
     );
   }
+
   
   export default Navbar1;
 

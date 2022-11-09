@@ -1,0 +1,6 @@
+[
+    {"id":1, "modelo": "Audi A4", "km": 203000, "Precio": "$2000000"},
+    {"id":2, "modelo": "BMW Z3", "km": 20000, "Precio": "$14000000"},
+    {"id":3, "modelo": "Gol trend", "km": 150000, "Precio": "$2000000"},
+    {"id":4, "modelo": "Toyota Corolla", "km": 213000, "Precio": "$2500000"}
+]
